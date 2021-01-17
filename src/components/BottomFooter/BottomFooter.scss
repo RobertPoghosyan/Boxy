@@ -1,0 +1,65 @@
+.app-bottomFooter {
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  border: 0;
+  font-size: 100%;
+  margin: 0px;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  color: #222;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-services {
+  display: block;
+  color: #222;
+}
+
+.footer-social {
+  display: block;
+}
+
+.footer-contacts_title {
+  margin-bottom: 15px;
+  padding: 27px 0 0;
+  font-size: 24px;
+  color: #10202c;
+  font-weight: 600;
+}
+
+footer-contacts_tel {
+  font-size: 20px;
+  color: #10202c;
+  line-height: 32px;
+  display: block;
+}
+
+.footer-services_text {
+  font-size: 24px;
+  margin-bottom: 15px;
+  padding: 27px 0 0;
+  color: #10202c;
+  font-weight: 600;
+}
+
+.footer-services-link {
+  display: block;
+  font-size: 20px;
+  color: #10202c;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+.footer-social_text {
+  user-select: none;
+  margin-bottom: 15px;
+  padding: 27px 0 0;
+  font-size: 20px;
+  color: #10202c;
+  font-weight: 600;
+}
