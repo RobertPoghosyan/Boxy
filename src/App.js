@@ -1,15 +1,18 @@
-import React from 'react';
+import React from "react";
 
-import Button from './components/Button/Button'
+import Layout from "./components/Layout/Layout";
+import Homepage from "./containers/Homepage/Homepage";
+import Products from "./containers/Products/Products";
 
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-       <Button className="btn-header" > Մուտք </Button> 
-       <Button className="btn-main" > Ստանալ </Button> 
-       <Button className="btn-footer" > Առաջարկ ու՞նես </Button> 
+      <Layout>
+        <Homepage />
+        <Products />
+      </Layout>
     </div>
   );
 }
