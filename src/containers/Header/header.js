@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Button from "../../components/Button/Button";
 import BoxyIcon from "../../icons/Boxy/BoxyIcon";
 import ShoppingCart from "../../icons/ShoppingCart/ShoppingCart";
-import "./header.scss";
+import "./Header.scss";
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -24,8 +24,7 @@ function Header() {
     <div>
       <header
         id="app-header"
-        className={isScrolled ? "app-header--scrolled" : "app-header"}
-      >
+        className={isScrolled ? "app-header--scrolled" : "app-header"}>
         <div className="BoxIcon">
           <BoxyIcon />
         </div>

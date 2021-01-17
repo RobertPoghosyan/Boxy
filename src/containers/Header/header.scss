@@ -12,15 +12,21 @@
 }
 
 .BoxIcon {
-  width: 100%;
+
   display: inline;
   position: absolute;
-  right: 45%;
+  left: 5%;
+  
 }
 .ShoppingCart {
-  width: 100%;
+  
   display: inline;
   position: absolute;
-  right: 3%;
+  left: 45%;
   margin: 15px 0;
 }
+.btn-header{
+    display: inline;
+  position: absolute;
+  left: 46%;
+ }
