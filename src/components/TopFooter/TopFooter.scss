@@ -1,0 +1,50 @@
+.app-topFooter {
+  padding: 0 80px;
+  height: 190px;
+  display: flex;
+  background-image: url("../../assets/footerTop.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #10202c;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+.btn-footer {
+  font-size: 20px;
+  padding: 16px 23px;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.160784);
+  background: #d9cef2;
+  text-align: center;
+  border-radius: 34px;
+  color: #333;
+  border: 1px solid transparent;
+  text-transform: none;
+  cursor: pointer;
+  line-height: normal;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+.btn-footer:hover {
+  background-color: #d0b8fe;
+}
+
+.topFooter-text {
+  padding: 15px 0 0 24px;
+  font-size: 32px;
+  text-transform: uppercase;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
