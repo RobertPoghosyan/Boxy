@@ -1,0 +1,49 @@
+.landing-text {
+  font-size: 32px;
+  line-height: 40px;
+  color: #333;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.btn-main {
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  margin-top: 40px;
+  padding: 16px 44px;
+  border-radius: 48px;
+  animation: btn-attention 0.5s;
+  animation-iteration-count: 6;
+  animation-delay: 2s;
+  background-color: #ff8a65;
+  text-align: center;
+  color: #333;
+  border: 1px solid transparent;
+  text-transform: none;
+  line-height: normal;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+.btn-main:hover {
+  background-color: #ff7a50;
+}
+
+.homepage-img {
+  display: inline-block;
+}
+
+.homepage-rightColumn {
+  display: inline-block;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.homepage-text {
+  color: #333;
+  font-weight: 400;
+}

@@ -1,0 +1,25 @@
+.product {
+  display: inline-block;
+  width: 275px;
+  align-items: center;
+}
+
+.boxy-img {
+  width: 275px;
+  border-radius: 16px;
+  object-fit: cover;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.app-about {
+  max-width: 722px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  color: #222;
+}
