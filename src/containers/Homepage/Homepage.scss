@@ -27,6 +27,9 @@
   line-height: normal;
   margin: 0;
   vertical-align: baseline;
+  position: absolute;
+  top: 70%;
+  right: 5%;
 }
 
 .btn-main:hover {
@@ -35,6 +38,8 @@
 
 .homepage-img {
   display: inline-block;
+  left: 0;
+  top: 0;
 }
 
 .homepage-rightColumn {
@@ -46,4 +51,8 @@
 .homepage-text {
   color: #333;
   font-weight: 400;
+  position: absolute;
+  left: 65%;
+  bottom: 30%;
+  font-family: "Mardoto-Regular", Fallback, sans-serif;
 }
