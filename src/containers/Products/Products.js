@@ -20,7 +20,7 @@ const Products = () => {
       })}
 
       <div className="app-about">
-        <p>Ի՞նչ է Boxy-ն</p>
+        <p className="product-p">Ի՞նչ է Boxy-ն</p>
         <p>
           {" "}
           Boxy-ն գաղտնի հավաքված նվեր տուփ է,որի պարունակությունը որոշվում է Ձեզ
