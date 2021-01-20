@@ -1,5 +1,7 @@
 import React from "react";
 
+import SocialIcon from "../../icons/SocialIcons/SocialIcon";
+
 import "./BottomFooter.scss";
 
 const BottomFooter = () => {
@@ -45,6 +47,7 @@ const BottomFooter = () => {
       </div>
       <div className="footer-social">
         <p className="footer-social_text"> Գտիր մեզ սոց.ցանցերում </p>
+        <p><SocialIcon /></p>
       </div>
     </div>
   );
