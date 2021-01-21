@@ -1,7 +1,6 @@
 .app-header {
   position: fixed;
-  height: 64px;
-  box-shadow: 1px 1px 2px rgb(190, 190, 190);
+  height: 53px;
   padding: 6px 41%;
   align-items: center;
   justify-content: space-between;
@@ -28,5 +27,9 @@
   display: inline;
   position: absolute;
   left: 46%;
- }
+}
 
+.app-header--scrolled {
+  background-color: white;
+  box-shadow: 1px 1px 2px rgb(190, 190, 190);
+}

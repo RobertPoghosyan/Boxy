@@ -1,5 +1,4 @@
-
-import React, { useState } from "react";
+import React, { useEffect,useState } from "react";
 
 import Button from "../../components/Button/Button";
 import BoxyIcon from "../../icons/Boxy/BoxyIcon";
@@ -7,25 +6,31 @@ import ShoppingCart from "../../icons/ShoppingCart/ShoppingCart";
 import "./Header.scss";
 
 function Header() {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [headerBackgrounded, setHeaderBackgrounded] = useState(false);
 
-  const listenScrollEvent = (e) => {
-    if (window.scrollY > 100) {
-      setIsScrolled(true);
+  const scrollHandler = () => {
+    if (window.scrollY > 20) {
+      setHeaderBackgrounded(true);
     } else {
-      setIsScrolled(false);
+      setHeaderBackgrounded(false);
     }
   };
 
-  const componentDidMount = () => {
-    window.addEventListener("scroll", listenScrollEvent);
-  };
+  useEffect(() => {
+    window.addEventListener("scroll", scrollHandler);
+    return () => {
+      window.removeEventListener("scroll", scrollHandler);
+    };
+  },[]  );
 
   return (
     <div>
       <header
         id="app-header"
-        className={isScrolled ? "app-header--scrolled" : "app-header"}>
+        className={`app-header ${
+          headerBackgrounded ? "app-header--scrolled" : " "
+        }`}
+      >
         <div className="BoxIcon">
           <BoxyIcon />
         </div>
@@ -36,6 +41,5 @@ function Header() {
       </header>
     </div>
   );
-
 }
 export default Header;
