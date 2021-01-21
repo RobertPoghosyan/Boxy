@@ -1,10 +1,14 @@
 .product {
-  display: inline-block;
   width: 275px;
   align-items: center;
+  position: relative;
+  &-title:hover ~ .hover-product {
+    display: flex;
+  }
 }
 
 .boxy-img {
+  position: relative;
   width: 275px;
   border-radius: 16px;
   object-fit: cover;
@@ -23,3 +27,31 @@
   box-sizing: border-box;
   color: #222;
 }
+
+.hover-product {
+  transition: bottom .2s;
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  width: 235px;
+  background-color: rgba(136,132,132,.7);
+  border-radius: 0 0 16px 16px;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: none;
+  &-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 3px 8px;
+    background-color: #ff8a65;
+    text-align: center;
+    width: 80px;
+    border: 1px solid transparent;
+  }
+}
+
+
