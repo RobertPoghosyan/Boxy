@@ -2,7 +2,7 @@
   width: 275px;
   align-items: center;
   position: relative;
-  &-title:hover ~ .hover-product {
+  &:hover .hover-product {
     display: flex;
   }
 }
@@ -29,7 +29,7 @@
 }
 
 .hover-product {
-  transition: bottom .2s;
+  // transition: transform .4s ease-in-out;
   position: absolute;
   z-index: 2;
   bottom: 50px;
