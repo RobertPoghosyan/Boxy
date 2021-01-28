@@ -6,7 +6,7 @@ import "./BottomFooter.scss";
 
 const BottomFooter = () => {
   return (
-    <div className="app-bottomFooter">
+    <div className="app-bottom-footer">
       <div className="footer-contacts">
         <p className="footer-contacts_title"> Հետադարձ կապ </p>
         <span className="footer-contacts_email"> Էլ․ հասցե՝ info@boxy.am </span>
@@ -23,31 +23,30 @@ const BottomFooter = () => {
       <div className="footer-services">
         <p className="footer-services_text"> Սպասարկում </p>
         <a className="footer-services-link" href="https://boxy.am/faq">
-          {" "}
-          Հաճախ տրվող հարցեր{" "}
+          Հաճախ տրվող հարցեր
         </a>
         <a
           className="footer-services-link"
           href="https://boxy.am/return-policy"
         >
-          {" "}
-          Վերադարձի պայմաններ{" "}
+          Վերադարձի պայմաններ
         </a>
+
         <a className="footer-services-link" href="https://boxy.am/terms-of-use">
-          {" "}
-          Օգտվելու կանոններ{" "}
+          Օգտվելու կանոններ
         </a>
         <a
           className="footer-services-link"
           href="https://boxy.am/terms-of-delivery"
         >
-          {" "}
-          Առաքման պայմաններ{" "}
+          Առաքման պայմաններ
         </a>
       </div>
       <div className="footer-social">
         <p className="footer-social_text"> Գտիր մեզ սոց.ցանցերում </p>
-        <p><SocialIcon /></p>
+        <p>
+          <SocialIcon />
+        </p>
       </div>
     </div>
   );
